@@ -1,6 +1,6 @@
 # Monte Carlo Option pricing implementation
 
-This repository conataisn a simple implemenation of the Monte Carlo option pricing for europian call options. Monte Carlo option pricing involves generating multiple random paths of prices for the underlying asset, staring from the current price $S_0$, and following the below stochastic process with a finite-time step size $\Delta t$ until the maturity date of the option. And averaging over the **discounted** final prices $S_T$ at present time.
+This repository contains a simple implemenation of the Monte Carlo option pricing for europian call options. Monte Carlo option pricing involves generating multiple random paths of prices for the underlying asset, staring from the current price $S_0$, and following the below stochastic process with a finite-time step size $\Delta t$ until the maturity date of the option. And averaging over the **discounted** final prices $S_T$ at present time.
 
 $$
 S_t=S_{t-1} e^{\left(r-\frac{\sigma^2}{2}\right) \Delta t+\sigma \varepsilon_t \sqrt{\Delta t}}
