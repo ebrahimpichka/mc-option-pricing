@@ -7,6 +7,7 @@ S_t=S_{t-1} e^{\left(r-\frac{\sigma^2}{2}\right) \Delta t+\sigma \varepsilon_t \
 $$
 
 where
+
 $$
     \begin{gathered}
     S_0: \text { initial equity price } \\
